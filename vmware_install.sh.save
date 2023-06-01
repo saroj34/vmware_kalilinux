@@ -1,0 +1,13 @@
+# install vmware workstation form website	
+https://www.linuxtechi.com/install-vmware-workstation-on-ubuntu/
+# after than install vmware
+ls downloads
+sudo apt update
+sudo apt install-y build-essential
+#the bash or sh is to run the script  by super user
+ sudo bash VMware-Workstation-Full-16.2.4-20089737.x86_64.bundle  
+#install required kernel modules
+$ sudo vmware-modconfig --console --install-all
+
+# Launch VMware Workstation
+search in vmwork staton in search bar and accept installation	
